@@ -9,6 +9,12 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Instituto Central Coahuila',
   description: 'El Instituto promueve que todos los miembros de la comunidad educativa formada por alumnos, padres de familia y el cuerpo docente y directivo viva y refleje los siguientes valores, actitudes y habilidades en la vida diaria escolar que se desprenden de la visión y misión establecidas.',
+  icons: [
+    { 
+      'href': '/favicon.ico',
+      'url': '/favicon.ico',
+    }
+  ]
 };
 
 export default function RootLayout({
