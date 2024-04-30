@@ -5,7 +5,7 @@ import { lastAchievements } from '@/info/homeInfo';
 const Achievements = () => {
   return (
     <section className='flex flex-col items-center gap-y-6 mt-8'>
-      <h2 className='text-4xl lg:text-5xl font-extrabold bg-white px-6 py-2 rounded-md'>
+      <h2 className='text-3xl md:text-4xl lg:text-5xl font-extrabold bg-white px-6 py-2 rounded-md'>
         Ultimos logros obtenidos
       </h2>
       <section className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-4'>
