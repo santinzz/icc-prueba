@@ -21,7 +21,7 @@ const Achievements = () => {
               />
             </section>
             <section>
-              <h4 className='font-bold max-w-[50ch]'>{description}</h4>
+              <p className='font-bold max-w-[50ch]'>{description}</p>
             </section>
           </article>
         ))}
