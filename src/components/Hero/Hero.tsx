@@ -9,10 +9,10 @@ const Hero = () => {
         homePageFont.className
       )}
     >
-      <h1 className='font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl'>
+      <h1 className='font-extrabold text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>
         Instituto Central Coahuila
       </h1>
-      <p className='text-amber-500 sm:text-2xl font-extrabold text-xl'>
+      <p className='text-amber-[#af7b22] sm:text-2xl font-extrabold text-xl'>
         Aplicando valores en la comunidad
       </p>
     </main>
