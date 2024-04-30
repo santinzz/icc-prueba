@@ -21,8 +21,8 @@ const Card = ({
           className='rounded-md rounded-b-none'
           src={src}
           alt={alt}
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           style={{ width: '100%', height: 'auto' }}
         />
       </section>
