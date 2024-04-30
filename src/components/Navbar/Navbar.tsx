@@ -16,7 +16,7 @@ const navbarFont = Poppins({
 const Navbar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState<boolean>(false);
   const [currentPath, setCurrentPath] = useState<string>(
-    window.location.pathname
+    typeof window !== 'undefined' ? window.location.pathname : '/'
   );
 
   const backdropSquareRef = useRef<HTMLDivElement>(null);
@@ -54,8 +54,8 @@ const Navbar = () => {
         <Image
           src='/logo.webp'
           alt='Logo del Instituto Central Coahuila'
-          width={105 / 1.5}
-          height={105 / 1.5}
+          width={100}
+          height={100}
           style={{ width: '70px', height: 'auto' }}
           priority
         />
